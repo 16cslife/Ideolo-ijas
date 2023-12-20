@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="lv">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ideoloģijas</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <style>
+    body {
+      background-color: #e6d96bc5; 
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    h1, h2, h3 {
+      color: #333;
+    }
+    .content-section {
+      background-color: #c27e19;
+      padding: 20px;
+      margin-bottom: 30px;
+      box-shadow: 0 4px 8px rgb(53, 44, 44);
+    }
+    .content-section img {
+      max-width: 100%;
+      height: auto;
+      margin-bottom: 15px;
+    }
+    .content-section a {
+      color: #007bff;
+      text-decoration: none;
+    }
+    .content-section a:hover {
+      text-decoration: underline;
+    }
+    .btn {
+      background-color: #007bff;
+      color: rgb(53, 44, 44);
+      border: none;
+      padding: 8px 16px;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    .btn:hover {
+      background-color: #0056b3;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <!-- Būtiskākās ideoloģijas -->
+    <div id="page1" class="content-section">
+      <h1>Ideoloģijas</h1>
+      <img src="https://upload.wikimedia.org/wikipedia/commons/6/64/Political_Compass_standard_model.svg" alt="Totalitārisma attēls" onerror="console.error('Totalitārisma attēla kļūda!')">
+      <p> Ideoloģijas ir jebkura politisko, tiesisko, filozofisko, tikumisko, reliģisko un estētisko uzskatu un nostādņu sistēma, kas ir pamatā politiskas vai sabiedriskas darbības programmām un vairāk vai mazāk atspoguļo kādas grupas vai šķiras ideālus un intereses.</p>
+      <a href="https://www.example.com/totalitarianism" target="_blank">Lasīt vairāk</a>
+      <button onclick="changePage('page2')">Ideoloģija</button>
+      <!-- Informācija par totalitārisma ideoloģiju -->
+      <div class="row">
+        <div class="col-md-6">
+          <h2>Definīcija</h2>
+          <p>Kanādiešu psihologs Džordans Pītersons savā darbā "12 dzīves likumi" (12 Rules For Life: An Antidote to Chaos) uzsver, ka ideoloģijas nav nekas vairāk kā vienkāršas idejas, kas uz zinātnes vai filozofijas bāzes cenšas izskaidrot apkārtējās pasaules sarežģītību, piedāvājot savus līdzekļus tās uzlabošanai.</p>
+        </div>
+        <div class="col-md-6">
+          <!-- Ievietot attēlu par totalitārisma ideoloģiju -->
+          <img src="path-to-totalitarianism-image.jpg" alt="Totalitārisma attēls" style="max-width: 100%;">
+        </div>
+      </div>
+      <!-- Cits sīkums vai informācija par totalitārisma ideoloģiju -->
+      <div class="row">
+        <div class="col-md-12">
+          <h2>Papildus informācija</h2>
+          <p>Kaut kas vēl par totalitārisma ideoloģiju...</p>
+        </div>
+      </div>
+      <!-- Tabula vai citi dati par totalitārisma ideoloģiju -->
+      <table>
+        <caption>Informācijas tabula par totalitārisma ideoloģiju</caption>
+        <!-- Tabulas saturs -->
+        <!-- ... -->
+      </table>
+    </div>
+  
+    <!-- Page 2 - Rasisms -->
+    <div id="page2" class="content-section hidden">
+      <h1>Lapa 2 - Rasisms</h1>
+      <img src="path-to-racism-image.jpg" alt="Rasisma attēls" onerror="console.error('Rasisma attēla kļūda!')">
+      <p>Rasisma ideoloģija pamatojas uz diskrimināciju pamatā uz rasi vai etnicitāti.</p>
+      <a href="https://www.example.com/racism" target="_blank">Lasīt vairāk</a>
+      <button onclick="changePage('page1')">Uz Totalitārisma lapu</button>
+      <!-- Informācija par rasisma ideoloģiju -->
+      <div class="row">
+        <div class="col-md-6">
+          <h2>Īss apraksts</h2>
+          <p>Rasisma ideoloģija ir sociālā...</p>
+        </div>
+        <div class="col-md-6">
+          <!-- Ievietot attēlu par rasisma ideoloģiju -->
+          <img src="path-to-racism-image.jpg" alt="Rasisma attēls" style="max-width: 100%;">
+        </div>
+      </div>
+      <!-- Cits sīkums vai informācija par rasisma ideoloģiju -->
+      <div class="row">
+        <div class="col-md-12">
+          <h2>Papildus informācija</h2>
+          <p>Kaut kas vēl par rasisma ideoloģiju...</p>
+        </div>
+      </div>
+      <!-- Tabula vai citi dati par rasisma ideoloģiju -->
+      <table>
+        <caption>Informācijas tabula par rasisma ideoloģiju</caption>
+        <!-- Tabulas saturs -->
+        <!-- ... -->
+      </table>
+    </div>
+       <!-- Page 2 - Rasisms -->
+       <div id="page2" class="content-section hidden">
+        <h1>Lapa 2 - Rasisms</h1>
+        <img src="path-to-racism-image.jpg" alt="Rasisma attēls" onerror="console.error('Rasisma attēla kļūda!')">
+        <p>Rasisma ideoloģija pamatojas uz diskrimināciju pamatā uz rasi vai etnicitāti.</p>
+        <a href="https://www.example.com/racism" target="_blank">Lasīt vairāk</a>
+        <button onclick="changePage('page1')">Uz Totalitārisma lapu</button>
+        <!-- Informācija par rasisma ideoloģiju -->
+        <div class="row">
+          <div class="col-md-6">
+            <h2>Īss apraksts</h2>
+            <p>Rasisma ideoloģija ir sociālā...</p>
+          </div>
+          <div class="col-md-6">
+            <!-- Ievietot attēlu par rasisma ideoloģiju -->
+            <img src="path-to-racism-image.jpg" alt="Rasisma attēls" style="max-width: 100%;">
+          </div>
+        </div>
+        <!-- Cits sīkums vai informācija par rasisma ideoloģiju -->
+        <div class="row">
+          <div class="col-md-12">
+            <h2>Papildus informācija</h2>
+            <p>Kaut kas vēl par rasisma ideoloģiju...</p>
+          </div>
+      </div>
+      <!-- Cits sīkums vai informācija par rasisma ideoloģiju -->
+      <div class="row">
+        <div class="col-md-12">
+          <h2>Papildus informācija</h2>
+          <p>Kaut kas vēl par rasisma ideoloģiju...</p>
+        </div>
+      </div>
+      <!-- Tabula vai citi dati par rasisma ideoloģiju -->
+      <table>
+        <caption>Informācijas tabula par rasisma ideoloģiju</caption>
+        <!-- Tabulas saturs -->
+        <!-- ... -->
+      </table>
+    </div>
+    <!-- Page 2 - Rasisms -->
+    <div id="page2" class="content-section hidden">
+      <h1>Lapa 2 - Rasisms</h1>
+      <img src="path-to-racism-image.jpg" alt="Rasisma attēls" onerror="console.error('Rasisma attēla kļūda!')">
+      <p>Rasisma ideoloģija pamatojas uz diskrimināciju pamatā uz rasi vai etnicitāti.</p>
+      <a href="https://www.example.com/racism" target="_blank">Lasīt vairāk</a>
+      <button onclick="changePage('page1')">Uz Totalitārisma lapu</button>
+      <!-- Informācija par rasisma ideoloģiju -->
+      <div class="row">
+        <div class="col-md-6">
+          <h2>Īss apraksts</h2>
+          <p>Rasisma ideoloģija ir sociālā...</p>
+        </div>
+        <div class="col-md-6">
+          <!-- Ievietot attēlu par rasisma ideoloģiju -->
+          <img src="path-to-racism-image.jpg" alt="Rasisma attēls" style="max-width: 100%;">
+        </div>
+      </div>
+      <!-- Cits sīkums vai informācija par rasisma ideoloģiju -->
+      <div class="row">
+        <div class="col-md-12">
+          <h2>Papildus informācija</h2>
+          <p>Kaut kas vēl par rasisma ideoloģiju...</p>
+        </div>
+      </div>
+      <!-- Tabula vai citi dati par rasisma ideoloģiju -->
+      <table>
+        <caption>Informācijas tabula par rasisma ideoloģiju</caption>
+        <!-- Tabulas saturs -->
+        <!-- ... -->
+      </table>
+    </div>
+  </div>
+
+  <script>
+    function changePage(pageId) {
+      const pages = document.querySelectorAll('.content-section');
+      pages.forEach(page => {
+        if (page.id === pageId) {
+          page.classList.remove('hidden');
+        } else {
+          page.classList.add('hidden');
+        }
+      });
+    }
+  </script>
+</body>
+</html>
